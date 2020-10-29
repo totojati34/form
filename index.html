@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM REGISTRASI MAHASISWA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="form-header">
+            <h1>STUDENT REGISTRATION FORM</h1>
+        </div>
+        <div class="form-body">
+            <div class="date">
+                <button disabled>Date</button>
+                <input type="text" name="date"/>
+            </div>
+    
+            <div class="personal-information">
+                <h2>PERSONAL INFORMATION</h2>
+                <div class="col-2">
+                    <button class="bor-up" disabled>NAME</button>
+                    <input class="bor-up" type="text" name="name"/>
+                </div>
+                <div class="col-2">
+                    <button disabled>DATE OF BIRTH</button>
+                    <input type="date" name="birth"/>
+                </div>
+            </div>
+    
+            <div class="contact-information">
+                <h2>CONTACT INFORMATION</h2>
+                <div class="col-2">
+                    <button class="bor-up" disabled>ADDRESS</button>
+                    <input class="bor-up" type="text" name="address"/>
+                </div>
+                <div class="col-4">
+                    <button disabled>CITY</button>
+                    <input type="text" name="city"/>
+                    <button disabled>PROVICE/STATE</button>
+                    <input type="text" name="province"/>
+                </div>
+                <div class="col-4">
+                    <button disabled>ZIP CODE</button>
+                    <input type="text" name="zip"/>
+                    <button disabled>COUNTRY</button>
+                    <input type="text" name="country"/>
+                </div>
+                <div class="col-4">
+                    <button disabled>PHONE</button>
+                    <input type="text" name="phone"/>
+                    <button disabled>EMAIl</button>
+                    <input type="text" name="email"/>
+                </div>
+                <div class="col-4">
+                    <button disabled>MEMBERSIP TYPE</button>
+                    <span>
+                        <input type="radio" name="member" value="regular"/>REGULAR
+                        <input type="radio" name="member" value="premium"/>PREMIUM
+                        <input type="radio" name="member" value="vip"/>VIP
+                    </span>           
+                </div>
+    
+                
+            </div>
+            <div class="course-information">
+                <h2>COURSE INFORMATION</h2>
+                <div class="col-2">
+                    <button class="bor-up" disabled>COURSE NAME</button>
+                    <input class="bor-up" type="text" name="course"/>
+                </div>
+                <div class="col-4">
+                    <button disabled>PAYMENT DETAILS</button>
+                    <span>
+                        <input type="radio" name="payment" value="cash"/>CASH
+                        <input type="radio" name="payment" value="cheque"/>CHEQUE
+                        <input type="radio" name="payment" value="credit"/>CREDIT CARD
+                    </span>           
+                </div>
+            </div>
+    
+            <div class="col-4">
+                <textarea name="signature" cols="30" rows="3" placeholder="Signature Student"></textarea>
+                <textarea name="validate" cols="30" rows="3" placeholder="Validate By"></textarea>
+            </div>
+    
+            <div class="submit">
+                <button class="btn-submit">SUBMIT</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
